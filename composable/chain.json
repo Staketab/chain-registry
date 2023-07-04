@@ -102,6 +102,11 @@
         "id": "20e1000e88125698264454a884812746c2eb4807",
         "address": "seeds.lavenderfive.com:22256",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "id": "d2362ebcdd562500ac8c4cfa2214a89ad811033c",
+        "address": "seeds.whispernode.com:22256",
+        "provider": "WhisperNode🤐"
       }
     ],
     "persistent_peers": [
@@ -109,6 +114,16 @@
         "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
         "address": "composable-mainnet-peer.autostake.com:26976",
         "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "id": "63559b939442512ed82d2ded46d02ab1021ea29a",
+        "address": "95.214.55.138:53656",
+        "provider": "genznodes"
+      },
+      {
+        "id": "cd44c8cae65a4c74281f05dd8aae5780cceae710",
+        "address": "95.216.42.88:37656",
+        "provider": "StakeTown"
       }
     ]
   },
@@ -133,6 +148,18 @@
       {
         "address": "https://composable-rpc.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://composable-rpc.genznodes.dev",
+        "provider": "genznodes"
+      },
+      {
+        "address": "https://rpc-composable.whispernode.com:443",
+        "provider": "WhisperNode🤐"
+      },
+      {
+        "address": "https://composable-rpc.stake-town.com",
+        "provider": "StakeTown"
       }
     ],
     "rest": [
@@ -155,6 +182,18 @@
       {
         "address": "https://composable-api.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://composable-api.genznodes.dev",
+        "provider": "genznodes"
+      },
+      {
+        "address": "https://lcd-composable.whispernode.com:443",
+        "provider": "WhisperNode🤐"
+      },
+      {
+        "address": "https://composable-api.stake-town.com",
+        "provider": "StakeTown"
       }
     ],
     "grpc": [
@@ -177,6 +216,14 @@
       {
         "address": "https://composable-grpc.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "composable-grpc.genznodes.dev:53090",
+        "provider": "genznodes"
+      },
+      {
+        "address": "composable-grpc.stake-town.com:10190",
+        "provider": "StakeTown"
       }
     ]
   },

@@ -37,14 +37,15 @@
   },
   "codebase": {
     "git_repo": "https://github.com/osmosis-labs/osmosis",
-    "recommended_version": "v15.1.0",
+    "recommended_version": "v15.2.0",
     "compatible_versions": [
+      "v15.2.0",
       "v15.1.0",
       "v15.0.0"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.1.0/osmosisd-15.1.0-linux-amd64?checksum=sha256:f16f901dfd47426caced8436c507e2950a4e2452b6cc6efc7845ab3b43a5c5d5",
-      "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.1.0/osmosisd-15.1.0-linux-arm64?checksum=sha256:08b20f0753b6b0bafa3a6ca7e4bb6807baf72754dfb69d6db7b1fb2b4b55ffc0"
+      "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-amd64",
+      "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-arm64"
     },
     "cosmos_sdk_version": "0.45",
     "consensus": {
@@ -118,10 +119,11 @@
       },
       {
         "name": "v15",
-        "tag": "v15.1.0",
+        "tag": "v15.2.0",
         "height": 8732500,
-        "recommended_version": "v15.1.0",
+        "recommended_version": "v15.2.0",
         "compatible_versions": [
+          "v15.2.0",
           "v15.1.0",
           "v15.0.0"
         ],
@@ -137,8 +139,8 @@
           "ics20-1"
         ],
         "binaries": {
-          "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.1.0/osmosisd-15.1.0-linux-amd64?checksum=sha256:f16f901dfd47426caced8436c507e2950a4e2452b6cc6efc7845ab3b43a5c5d5",
-          "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.1.0/osmosisd-15.1.0-linux-arm64?checksum=sha256:08b20f0753b6b0bafa3a6ca7e4bb6807baf72754dfb69d6db7b1fb2b4b55ffc0"
+          "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-amd64",
+          "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-arm64"
         }
       }
     ]
@@ -201,11 +203,6 @@
         "id": "38ab18cb2ea1dfeb6232b429e1508f56b6ae5031",
         "address": "seed-osmosis-01.stakeflow.io:65535",
         "provider": "Stakeflow"
-      },
-      {
-        "id": "e08582d8927a10c1b32555623812a1e9ee0a5e70",
-        "address": "osmosis-seed.panthea.eu:42656",
-        "provider": "Panthea EU"
       }
     ],
     "persistent_peers": [
@@ -310,6 +307,10 @@
       {
         "address": "https://osmosis-rpc.staketab.org:443",
         "provider": "Staketab"
+      },
+      {
+        "address": "https://osmosis-rpc.w3coins.io",
+        "provider": "w3coins"
       }
     ],
     "rest": [
@@ -372,6 +373,14 @@
       {
         "address": "https://osmosis-rest.staketab.org",
         "provider": "Staketab"
+      },
+      {
+        "address": "https://osmosis-api.w3coins.io",
+        "provider": "w3coins"
+      },
+      {
+        "address": "https://lcd-osmosis.whispernode.com:443",
+        "provider": "WhisperNode🤐"
       }
     ],
     "grpc": [
@@ -406,6 +415,10 @@
       {
         "address": "services.staketab.com:9010",
         "provider": "Staketab"
+      },
+      {
+        "address": "osmosis-grpc.w3coins.io:12590",
+        "provider": "w3coins"
       }
     ]
   },
