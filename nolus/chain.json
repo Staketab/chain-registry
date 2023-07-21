@@ -99,12 +99,12 @@
       },
       {
         "id": "e1b058e5cfa2b836ddaa496b10911da62dcf182e",
-        "address": "nolus-seed-1.allnodes.me:26656",
+        "address": "nolus-seed-de.allnodes.me:26656",
         "provider": "Allnodes.com ⚡️ Nodes & Staking"
       },
       {
         "id": "e726816f42831689eab9378d5d577f1d06d25716",
-        "address": "nolus-seed-2.allnodes.me:26656",
+        "address": "nolus-seed-us.allnodes.me:26656",
         "provider": "Allnodes.com ⚡️ Nodes & Staking"
       },
       {
@@ -134,6 +134,10 @@
       {
         "address": "https://nolus-rpc.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://nolus-rpc.sphincs.plus",
+        "provider": "Sphincs.plus 🔅"
       },
       {
         "address": "https://nolus.rpc.liveraven.net",
@@ -168,6 +172,10 @@
       {
         "address": "https://nolus-api.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://nolus-lcd.sphincs.plus",
+        "provider": "Sphincs.plus 🔅"
       },
       {
         "address": "https://nolus.api.liveraven.net",
